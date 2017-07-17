@@ -366,7 +366,7 @@ static inline CGSize CTFramesetterSuggestFrameSizeForAttributedStringWithConstra
         [self invalidateIntrinsicContentSize];
     }
 
-    [super setText:[self.attributedText string]];
+    [self setText:[self.attributedText string]];
 }
 
 - (NSAttributedString *)renderedAttributedText {
